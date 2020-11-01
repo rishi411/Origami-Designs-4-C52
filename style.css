@@ -1,0 +1,70 @@
+body{
+    background-color:rgb(210, 210, 255);
+    ;
+}
+.header {
+    background-color:cadetblue;
+    color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 370;
+    font-family: Georgia;
+    color: #000000;
+}
+
+.picture{
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 15px;
+    width: 290px;
+}
+.grid img{
+    border-radius: 20px;
+}
+a:link{
+    color:aquamarine;
+}
+
+a:visited{
+    color:rgb(199, 199, 255);
+}
+
+a{
+    text-decoration:none;
+}
+
+.picture:hover{
+    transform: scale(1.2);
+}
+
+.picture{
+    position:relative;
+}
+
+.picture ol{
+    position: absolute;
+    top:60%;
+    left:40%;
+    transform:translate(-55%,-60%);
+    opacity:0;
+}
+
+.picture:hover ol{
+    opacity:1;
+}
+
+.picture:hover img{
+    opacity:0.34;
+}
